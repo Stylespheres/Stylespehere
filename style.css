@@ -6,14 +6,14 @@
 }
 
 body {
-  background: #fffdfb;
-  color: #333;
+  background: #fff8f3;
+  color: #3b2f2f;
   line-height: 1.6;
 }
 
 /* Header */
 .header {
-  background: #ff6f61;
+  background: #7a3e2f; /* deep warm brown */
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
@@ -35,20 +35,20 @@ nav a {
 }
 
 nav a:hover {
-  color: #ffe5e0;
+  color: #dcb6a5;
 }
 
 /* Hero Section */
 .hero {
   text-align: center;
   padding: 60px 20px;
-  background: linear-gradient(to right, #ff9a76, #ff6f61);
+  background: linear-gradient(to right, #c47a57, #7a3e2f); /* lipstick-like gradient */
   color: white;
 }
 
 .hero .btn {
   background: white;
-  color: #ff6f61;
+  color: #7a3e2f;
   padding: 10px 20px;
   border: none;
   margin-top: 20px;
@@ -59,7 +59,7 @@ nav a:hover {
 }
 
 .hero .btn:hover {
-  background: #ffeae7;
+  background: #f3e0d9;
 }
 
 /* Product Display */
@@ -68,7 +68,7 @@ nav a:hover {
   justify-content: center;
   flex-wrap: wrap;
   padding: 40px 20px;
-  background: #fff8f0;
+  background: #faeee7; /* soft beige backdrop */
 }
 
 .product {
@@ -78,7 +78,7 @@ nav a:hover {
   padding: 20px;
   border-radius: 16px;
   background: white;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease;
 }
 
@@ -93,12 +93,12 @@ nav a:hover {
 
 .price {
   font-weight: bold;
-  color: #444;
+  color: #4d3a34;
   margin: 10px 0;
 }
 
 button {
-  background-color: #ff6f61;
+  background-color: #a0533d; /* lipstick brown */
   color: white;
   border: none;
   padding: 10px 20px;
@@ -108,7 +108,7 @@ button {
 }
 
 button:hover {
-  background-color: #e64a4a;
+  background-color: #8c3d2b;
 }
 
 /* About and Contact Sections */
@@ -130,7 +130,7 @@ button:hover {
 .contact textarea {
   padding: 10px;
   margin: 10px 0;
-  border: 1px solid #ddd;
+  border: 1px solid #cbb1a2;
   border-radius: 8px;
   font-size: 1rem;
 }
@@ -139,7 +139,7 @@ button:hover {
 footer {
   text-align: center;
   padding: 20px;
-  background: #333;
+  background: #4d2c24; /* dark cocoa brown */
   color: white;
 }
 
@@ -151,5 +151,5 @@ footer {
 }
 
 .social-links a:hover {
-  color: #ff6f61;
+  color: #d69f8c;
 }
