@@ -8,8 +8,10 @@
 body {
   background: #fffdfb;
   color: #333;
+  line-height: 1.6;
 }
 
+/* Header */
 .header {
   background: #ff6f61;
   padding: 1rem 2rem;
@@ -29,8 +31,14 @@ nav a {
   margin-left: 1.5rem;
   text-decoration: none;
   font-weight: 500;
+  transition: color 0.3s ease;
 }
 
+nav a:hover {
+  color: #ffe5e0;
+}
+
+/* Hero Section */
 .hero {
   text-align: center;
   padding: 60px 20px;
@@ -47,8 +55,14 @@ nav a {
   font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
+  transition: background 0.3s ease;
 }
 
+.hero .btn:hover {
+  background: #ffeae7;
+}
+
+/* Product Display */
 .product-display {
   display: flex;
   justify-content: center;
@@ -64,7 +78,12 @@ nav a {
   padding: 20px;
   border-radius: 16px;
   background: white;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.product:hover {
+  transform: translateY(-5px);
 }
 
 .product img {
@@ -82,16 +101,19 @@ button {
   background-color: #ff6f61;
   color: white;
   border: none;
-  padding: 10px;
+  padding: 10px 20px;
   border-radius: 6px;
   cursor: pointer;
+  transition: background 0.3s ease;
 }
 
 button:hover {
   background-color: #e64a4a;
 }
 
-.about, .contact {
+/* About and Contact Sections */
+.about, 
+.contact {
   padding: 40px 20px;
   background: #fff;
   text-align: center;
@@ -104,13 +126,16 @@ button:hover {
   margin: auto;
 }
 
-.contact input, .contact textarea {
+.contact input, 
+.contact textarea {
   padding: 10px;
   margin: 10px 0;
   border: 1px solid #ddd;
   border-radius: 8px;
+  font-size: 1rem;
 }
 
+/* Footer */
 footer {
   text-align: center;
   padding: 20px;
@@ -122,4 +147,9 @@ footer {
   color: #fff;
   text-decoration: none;
   margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #ff6f61;
 }
